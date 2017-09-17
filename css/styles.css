@@ -1,0 +1,316 @@
+/*-------------------GENERAL STYLES-------------------*/
+body{
+	font-family: 'Abel', sans-serif;
+}
+.row{
+	margin:0;
+}
+div.container{
+	width: 970px;
+}
+ul.right-list{
+	float: right;
+	text-align: right;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+ul.right-list li {
+	float: left;
+}
+ul.right-list li a{
+	font-size: 12px;
+	padding: 0 24px;
+	text-decoration: none;
+}
+.bold{
+	font-weight: bold;
+}
+.line-through{text-decoration:line-through;}
+/*-------------------TOP BAR-------------------*/
+div.top-bar{
+	background: #000000;
+}
+div.top-bar ul{
+	line-height: 29px;
+}
+div.top-bar ul li a{
+	border-right: 1px solid #EBEBEB;
+	color: #EBEBEB;
+}
+div.top-bar ul li:last-child a{
+	border-right: 0px;
+	padding-right:  0px;
+}
+div.top-bar span.badge{
+	border: 1px solid #ffffff;
+	padding: 1px 10px;
+	background: none;	
+}
+/*-------------------HEADER-------------------*/
+header{
+	background: #EBEBEB;
+	padding: 20px 0;
+}
+div.header-top, div.header-bottom{
+	width: 100%;
+	overflow: hidden;
+}
+div.header-top{
+	margin-bottom: 20px;
+}
+div.header-top div.logo img{
+	width: 250px;
+	float: left;
+}
+div.header-top ul{
+	margin-top: 19px;
+}
+div.header-top ul li{
+	line-height: 45px;
+}
+div.header-top ul li a{
+	border-right: 1px solid #000000;
+	color: #000000;
+}
+div.header-top ul li:last-child a{
+	border-right: 0px;
+	padding:  0px 5px;
+	font-size: 20px;
+}
+div.header-bottom ul{
+	margin-bottom: 0;
+}
+div.header-bottom nav ul li{
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	float: left;
+	height: 45px;
+	height: 45px;
+	text-align: center;
+	width: 20%;
+}
+div.header-bottom nav ul li.active{
+	background: #000000;
+	position: relative;
+}
+div.header-bottom nav ul li.active:after{
+	color: #000000;
+	content: '\f0da';
+	font-family: FontAwesome;
+	font-size: 50px;
+	position: absolute;
+	right: -15px;
+	top: -12px;
+}
+div.header-bottom nav ul li.active a{
+	color: #ffffff;
+}
+div.header-bottom nav ul li:first-child{
+	border-left: 1px solid #000000;
+	padding: 10px;
+}
+div.header-bottom nav ul li a{
+	color: #000000;
+	text-decoration: none;
+}
+/*-------------------INFO CONTENT-------------------*/
+div.breadcrumb-container ol.breadcrumb{
+	background: none;
+	padding: 0;
+}
+div.breadcrumb-container ol.breadcrumb li a{
+	font-size: 20px;
+	color: #4f4f4f;
+}
+div.breadcrumb-container ol.breadcrumb li{
+	font-size: 20px;
+	color: #000000;
+}
+div.media-data div.content{
+	padding:20px 0px;
+}
+div.media-container{
+	height: 600px;
+	width: 100%;
+}
+div.btn-media-content{
+	overflow: hidden;
+}
+div.btn-media-content button{
+	background: #000000;
+	border-radius: 0px;
+	border-top: 1px solid #ffffff;
+	box-sizing: border-box;
+	color: #ffffff;
+	float: left;
+	font-size: 16px;
+	padding: 15px 0;
+	width: 50%;
+}
+div.btn-media-content button:hover{
+	color: #ffffff;
+}
+div.btn-media-content button.btn-media i{
+	font-size: 24px;
+	vertical-align: middle;
+}
+div.btn-media-content button.btn-media span.btn-media-text{
+	vertical-align: middle;
+}
+img.img-attractions{
+	width: 310px;
+}
+div.btn-media-content button.btn-images{
+	border-right: 1px solid #ffffff;
+}
+div.btn-quote-container{
+	margin-top: 50px;
+}
+div.btn-quote-container button.btn-cotizar{
+	background: #000000;
+	color: #ffffff;
+	font-size: 17px;
+	padding: 10px 50px;
+}
+article.pay-options-container{
+	margin-top: 50px;
+}
+article.pay-options-container div.container{
+	border: 1px solid #000000;
+	text-align: center;
+	overflow: hidden;
+}
+div.pay-options-content{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 802px;
+}
+div.pay-options-content span.meses-text, div.pay-options-content img, div.pay-options-content span.meses-text, div.pay-options-content p{
+	float: left;
+}
+div.pay-options-content span.meses-text{
+	font-size: 16px;
+	margin-top: 14px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+div.pay-options-content img{
+	width: 670px;
+	vertical-align: middle;
+}
+div.pay-options-content p{
+	font-size: 16px;
+}
+/*-------------------ASIDE-------------------*/
+aside a.btn-promo-aside{
+	background: #000000;
+	border-radius: 0px;
+	color: #ffffff;
+	font-size: 14px;
+	text-decoration: none;
+}
+aside a.btn-promo-aside:hover{
+	color: #ffffff;
+}
+aside a.btn-promo-aside span.btn-large-text{
+	font-size: 22px;
+}
+aside div.product-cart-data{
+	margin-top: 19px;
+}
+aside div.product-cart-data h4.product-name{
+	margin-bottom: 25px;
+}
+aside div.product-cart-data div.cost-online h3{
+	font-size: 20px;
+	margin: 25px 0;
+}
+aside div.product-cart-data button.btn-buy{
+	background: #000000;
+	color: #ffffff;
+	font-size: 15px;
+	width: 100%;
+}
+aside div.conditions-data{
+	margin-top: 60px;
+}
+aside div.conditions-data p{
+	font-size: 11px;
+	font-style: italic;
+	margin: 0;
+}
+aside div.conditions-data h5{
+	font-size: 16px;
+}
+div.container-icons-discount div.item-discount{
+	border: 1px solid #000000;
+	border-radius: 2px;
+	float: left;
+	margin-left: 1px;
+	margin-bottom: 1px;
+	width: 32.8%;
+}
+div.container-icons-discount div.item-discount span.text-discount{
+	font-size: 26px;
+}
+div.container-icons-discount div.item-discount p{
+	font-size: 11px;
+	font-style: normal;
+	margin-top: -7px;
+}
+/*-------------------FOOTER-------------------*/
+footer div.footer-logos-menu{
+	background: #1A1A1A;
+	color: #ffffff;
+	padding: 30px 0;
+}
+footer h3{
+	color: #ffffff;
+	font-family: 'Comfortaa', cursive;
+	font-size: 26px;
+	margin-top: 0;
+}
+footer div.row center.col-md-4{
+	height: 58px;
+	margin-bottom: 20px;
+	line-height: 58px;
+}
+footer div.row img{
+	width: 158px;
+}
+footer div.menu-footer h4{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+footer div.menu-footer ul li{
+	padding-left: 10px;
+}
+footer div.menu-footer ul li a{
+	color: #ffffff;
+	font-size: 14px;
+}
+footer div.footer-info-contact{
+	background: #000000;
+	color: #ffffff;
+	padding: 30px 0;
+}
+footer div.footer-info-contact h4{
+	margin-bottom: 25px;
+}
+footer div.footer-info-contact div.col-md-4{
+	padding: 0;
+}
+footer div.footer-info-contact ul li{
+	margin-bottom: 10px;
+}
+footer div.footer-info-contact ul li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+footer div.footer-info-contact div.copy-r{
+	margin-top: 50px;
+}
+footer div.footer-info-contact div.copy-r div.col-md-12{
+	padding: 0;
+}
